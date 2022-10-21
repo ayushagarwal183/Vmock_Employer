@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employer_Vmock" thread-count="1" parallel="false" >
+	
+	 <parameter name="URL" value="Test"></parameter>
+	 <test name="Login" preserve-order="true" >
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.Vmock.testcases.impl.TC_createInterview" />
+		</classes>
+		
+	 </test> 
+	        
+	 	 <!--Test --> 
+</suite> <!-- Suite -->
